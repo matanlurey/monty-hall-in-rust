@@ -1,0 +1,7 @@
+[package]
+name = "monty_hall"
+version = "0.1.0"
+authors = ["Matan Lurey <matan@lurey.org>"]
+
+[dependencies]
+rand = "0.7.3"
