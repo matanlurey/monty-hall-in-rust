@@ -34,7 +34,7 @@ fn main() {
   println!("Wins: {} (of 10000); {1:.2}% of the time", results, percent)
 }
 
-/// Runs the specified amoutn of simulations returning the number of winners.
+/// Runs the specified amount of simulations returning the number of winners.
 fn run(times: u16) -> u16 {
   let mut winners: u16 = 0;
   let mut rng = rand::thread_rng();
@@ -78,7 +78,6 @@ fn simulate(rng: &mut rand::rngs::ThreadRng) -> bool {
 }
 
 /// Possible results behind a door.
-#[derive(Debug)]
 enum Door {
   Car,
   Goat,
